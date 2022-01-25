@@ -134,6 +134,7 @@ hr {
 .menu-button img {
   width: 30px;
   height: 30px;
+  opacity:0;
 }
 
 .menu-items a {
@@ -155,7 +156,7 @@ hr {
 
 .menu-items a:hover {
   color: rgb(0, 0, 0);
-  opacity: 0;
+  opacity: 0.5;
 }
 
 .content-container {
