@@ -76,8 +76,9 @@ hr {
 .menu-container {
   z-index: 2;
   position: relative;
+  top: 15px;
   width: 100%;
-  background-color: #212121;
+  background-color: #FFFFFF;
   min-width: 300px;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -99,10 +100,14 @@ hr {
   margin: 0;
 }
 
+.menu-table a:hover {
+  opacity: 0.5;
+}
+
 .menu-highlight {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
   opacity: 1 !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 
 .logo {
@@ -110,11 +115,11 @@ hr {
 }
 
 .logo a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
   font-size: 30px;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 400;
   flex: 1 auto;
 }
 
@@ -132,7 +137,7 @@ hr {
 }
 
 .menu-items a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.7);
   text-decoration: none;
   font-weight: 400;
   font-size: 18px;
@@ -149,8 +154,8 @@ hr {
 }
 
 .menu-items a:hover {
-  color: rgb(255, 255, 255);
-  opacity: 1;
+  color: rgb(0, 0, 0);
+  opacity: 0;
 }
 
 .content-container {
@@ -268,7 +273,7 @@ hr {
 
 .badge-text {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .text {
@@ -293,7 +298,7 @@ hr {
 
 .image {
   border-radius: 2px;
-  width: 100%;
+  width: 20%;
   margin: 15px 0;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
