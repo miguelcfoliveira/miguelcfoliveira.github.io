@@ -335,6 +335,13 @@ hr {
   margin: 5px 40px 25px 0;
 }
 
+.floatright {
+    float: left;
+    clear: left;
+    position: relative;
+    margin: 0.2em 0 0.8em 1.4em;
+}
+
 .image-caption {
   width: 100%;
   text-align: center;
