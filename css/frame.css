@@ -168,7 +168,7 @@ hr {
 
 .content {
   position: relative;
-  margin:  auto;
+  margin: 0 auto;
   font-size: 16px;
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   font-weight: 300;
@@ -344,6 +344,14 @@ hr {
 
 .max-width-400 {
   max-width: 400px;
+}
+
+.min-width-250 {
+  min-width: 250px;
+}
+
+.max-width-600 {
+  max-width: 600px;
 }
 
 .max-width-140 {
