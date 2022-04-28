@@ -632,17 +632,6 @@ ol.nested>li:before {
   user-select: none;
 }
 
-.gallery a>img,
-.gallery a>video {
-  border-radius: 2px;
-  width: 100%;
-  background-image: url(../img/loading.gif);
-  background-repeat: no-repeat;
-  background-size: 30px 30px;
-  background-position: center;
-  min-height: 50px;
-}
-
 .gallery a>div {
   width: 100%;
   text-align: center;
