@@ -776,6 +776,10 @@ ol.nested>li:before {
     -webkit-tap-highlight-color: transparent;
   }
 
+  .min-width-250 {
+  min-width: 75%;
+  }
+
   .menu-items {
     display: none;
     width: 100%;
@@ -822,9 +826,11 @@ ol.nested>li:before {
   }
 
   .image-wrap-text {
+    float:top;
     max-width: 100%;
     margin-bottom: 20px;
-    margin-right: 0;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
   }
 }
 
@@ -833,6 +839,7 @@ ol.nested>li:before {
     flex: 1 0 25%;
     max-width: 25%;
   }
+
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
