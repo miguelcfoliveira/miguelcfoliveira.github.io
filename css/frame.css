@@ -132,9 +132,8 @@ hr {
 }
 
 .menu-button img {
-  width: 30px;
-  height: 30px;
-  opacity:0;
+  width: 60px;
+  height: 60px;
 }
 
 .menu-items a {
@@ -800,7 +799,6 @@ ol.nested>li:before {
     align-items: center;
     align-content: stretch;
     box-sizing: border-box;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .menu-button:focus {
