@@ -2,6 +2,7 @@
 
 \usepackage{hyperref}
 \usepackage{geometry}
+\usepackage{multicol}
 
 \def\name{Miguel Cardoso Oliveira}
 
@@ -35,7 +36,7 @@
 \setlength\parindent{0em}
 
 % Make lists without bullets
-\renewenvironment{itemize}{
+\newenvironment{itemize*}{
   \begin{list}{}{
     \setlength{\leftmargin}{1.5em}
   }
@@ -59,36 +60,35 @@
   \begin{tabular}{ll}
     Phone: & +351 969 830 905 \\
     Email: & \href{mailto:miguel.oliveira@novasbe.pt}{\tt miguel.oliveira@novasbe.pt} \\
-    Homepage: & \href{https://www.novasbe.unl.pt/}{\tt https://www.novasbe.unl.pt/} \\
+    Homepage: & \href{https://miguelcfoliveira.github.io}{\tt https://miguelcfoliveira.github.io} \\
   \end{tabular}
 \end{minipage}
 
-
-\section*{Personal}
-
-\begin{itemize}
-\item Born on February 1, 1993.
-\item Portuguese Citizen.
-\end{itemize}
-
-
 \section*{Education}
 
-\begin{itemize}
-  \item \textbf{Ph.D., Finance}, Nova School of Business and Economics, 2023 (Expected)
-  \item \textbf{Summer School in Structural Estimation} (Corporate Finance), Mitsui Center, 2021
-  \item \textbf{M.Sc., Finance}, Nova School of Business and Economics, 2016
-  \item \textbf{B.Sc., Economics}, Nova School of Business and Economics, 2014
-\end{itemize}
+\begin{itemize*}
+\item \textbf{Ph.D., Economics \& Finance}, Nova School of Business and Economics \hfill 2019 - 2023
+\item Visiting Ph.D. Student at Carnegie Mellon University (Spring 2023)
+\item \textbf{Summer School in Structural Estimation} (Corporate Finance), Mitsui Center \hfill August 2021
+\item \textbf{M.Sc., Finance}, Nova School of Business and Economics \hfill 2014 - 2016
+\item \textbf{B.Sc., Economics}, Nova School of Business and Economics \hfill  2011 - 2014
+\item Erasmus Program at Luiss Guido Carli
+\end{itemize*}
+
+\section*{Research Interests}
+\begin{itemize*}
+\item Microeconomics, Corporate Finance, Financial Distress \& Bankruptcy, Household Finance, Macrofinance
+\end{itemize*}
+
 
 \section*{Work in Progress}
 
-\begin{itemize}
+\begin{itemize*}
 \item \textbf{How costly is default around the world? Evidence from structural estimation}
 
 \medskip
 
-\item \textbf{Income, Consumption and Savings during COVID-19}
+\item \textbf{How Do Households React to Forbearance? Evidence from Transaction-Level Data}
 
 	(with Manuel Adelino and Miguel Ferreira)
 \medskip
@@ -97,46 +97,75 @@
 
 	(with Fernando Anjos and Irem Demirci)
 
-\end{itemize}
+\end{itemize*}
 
 \section*{Teaching Experience}
 
-\begin{itemize} 
-\item \textbf{Nova School of Business and Economics}, Teaching Assistant, 2016 - present
-\begin{itemize}
-\item \textit{Principles of Management (B.Sc. in Economics/Management)}
-\smallskip
-\end{itemize}
-\item \textbf{Nova School of Business and Economics}, Grader, 2018 - present
-\begin{itemize}
-\item \textit{Data Analytics for Finance (M.Sc. in Finance)}
-\item \textit{International Taxation (M.Sc. in Finance)}
-\item \textit{Small Business Management (M.Sc. in Management)}
-\end{itemize}
-\end{itemize}
+\begin{itemize*} 
+\item \textbf{Nova School of Business and Economics}, Teaching Assistant
+\begin{itemize*}
+\item Corporate Finance (M.Sc. in Finance) \hfill Fall 2022
+\item Data Analytics for Finance (M.Sc. in Finance) \hfill Spring 2022
+\item Small Business Management (M.Sc. in Management)  \hfill Fall 2021
+\item Small Business Management (M.Sc. in Management)  \hfill Fall 2020
+\item International Taxation (M.Sc. in Finance) \hfill Spring 2019
+\item Principles of Management (B.Sc. in Economics/Management) \hfill 2016-present
+\end{itemize*}
+\end{itemize*}
 
 \section*{Academic Honors and Grants}
 
-\begin{itemize}
-\item Ph.D. Scholarship, FCT (Portuguese Funding Agency for Science, Research and Technology), 2019 - 2023
-\item NOVA SBE Scholarship for merit (M.Sc. partial tuition waiver), 2014 - 2016
-\end{itemize}
+\begin{itemize*}
+\item Ph.D. Scholarship, FCT (\textit{Fundação para a Ciência e Tecnologia}) \hfill 2019 - 2023
+\item NOVA SBE Scholarship for merit (M.Sc. partial tuition waiver) \hfill 2014 - 2016
+\end{itemize*}
 
-\section*{Service to Profession}
-\subsection*{Discussions}
+\section*{Service}
+\begin{itemize*}
+\item Nova Finance Knowledge Center (Member) \hfill 2021-present
+\item Nova SBE Planning and Academic Progress Office - Process and Software Development \hfill 2020-present
+\end{itemize*}
 
+\section*{Seminars and Conference Presentations}
+\begin{itemize*}
+\item "Do Specialized Distress Investors Undermine Upstream Lending?"
 \begin{itemize}
-\item Finance PhD Pitch Perfect, Nova SBE (Lisbon, Portugal), February 2022
+\item Cambridge Judge Business School - Nova SBE Workshop,  Cambridge 2022 (by co-author)
 \end{itemize}
+\end{itemize*}
+
+\section*{Discussions}
+\begin{itemize*}
+\item Cambridge Judge Business School - Nova SBE Workshop,  Cambridge 2022
+\item Nova SBE Finance PhD Final Countdown, Lisbon 2022
+\item Nova SBE Finance PhD Pitch Perfect, Lisbon 2022
+\end{itemize*}
 
 \section*{Non-Academic Experience}
 
-\begin{itemize}
-\item \textbf{Financial Consultant}, Reorganizations \& Bankruptcies in collaboration with small Law firm, 2016-2019
-\item \textbf{Founder and Manager}, First Equity – Investimentos Imobiliários (Commercial Real Estate), 2016-2019
-\end{itemize}
+\begin{itemize*}
+\item \textbf{Financial Consultant}, Reorganizations \& Bankruptcies w/ small Law firm \hfill 2016-2019
+\item \textbf{Founder and Manager}, First Equity, Lda. (Commercial Real Estate) \hfill 2016-2019
+\end{itemize*}
 
+\section*{References}
+\begin{multicols}{2}
+\textbf{Fernando Anjos} \\
+Associate Professor of Finance \\
+Nova School of Business \& Economics \\
+Campus de Carcavelos \\
+Rua da Holanda No. 1 \\ 
+2775-405 Carcavelos, Portugal \\ 
+Email: \href{mailto:fernando.anjos@novasbe.pt}{\tt fernando.anjos@novasbe.pt} 
+\columnbreak \hfill
 
+\textbf{Bernardo Melo Pimentel} \\
+Head of Economics | Teaching \& Learning Coord. \\
+Forward College \\
+Rua das Flores 71 \\
+1200-193 Lisboa, Portugal \\
+Email: \href{mailto:bernardo.demelopimentel@forward-college.eu}{\tt bernardo.demelopimentel@forward-college.eu} 
+\end{multicols}
 
 
 \bigskip
